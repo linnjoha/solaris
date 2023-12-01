@@ -171,6 +171,9 @@ footer {
   width: 50%;
   height: 50%;
 }
+.planetInfoSection-list_item p {
+  letter-spacing: 0.2rem;
+}
 .moons {
   display: flex;
   flex-direction: column;
@@ -180,11 +183,16 @@ footer {
 .moonsHeader {
   padding: 1rem 0 0 0;
 }
-.moonsInfo {
-}
+/*.moonsInfo {
+}*/
 .bigInfoPlanet {
   position: absolute;
   top: -163px;
   left: -858px;
   height: 60rem;
+}
+.bigInfoPlanet SVG {
+  color: white;
+  position: absolute;
+  right: 0;
 }
