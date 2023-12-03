@@ -77,7 +77,6 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  gap: 2rem;
   margin-top: 10%;
 }
 #planet1 {
@@ -159,7 +158,7 @@ footer {
   width: 50%;
 }
 
-.planetInfoSection-list {
+.planetInfo-details {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -167,11 +166,11 @@ footer {
   border-bottom: 1px solid white;
   padding: 1rem 0 1rem 0;
 }
-.planetInfoSection-list_item {
+.planetInfo-details_item {
   width: 50%;
   height: 50%;
 }
-.planetInfoSection-list_item p {
+.planetInfo-details_item p {
   letter-spacing: 0.2rem;
 }
 .moons {
@@ -183,16 +182,16 @@ footer {
 .moonsHeader {
   padding: 1rem 0 0 0;
 }
-/*.moonsInfo {
-}*/
 .bigInfoPlanet {
   position: absolute;
   top: -163px;
   left: -858px;
   height: 60rem;
 }
-.bigInfoPlanet SVG {
+#backArrow {
   color: white;
-  position: absolute;
-  right: 0;
+  z-index: 1;
+  position: fixed;
+  top: 45%;
+  left: 0%;
 }
